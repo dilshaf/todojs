@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <link rel="stylesheet" href="./assignment1.css">
+</head>
+<body>
+    <div class="inputs">
+    <input type="number" id="inputid" placeholder="Enter number 1..."><br>
+    <input type="number" id="inputid1" placeholder="Enter number 2..."><br>
+    </div>
+
+    <button onclick="add()" id="btnid">click</button>
+   <p id="para">
+
+   </p>
+
+    <script>
+        let inputid=document.getElementById("inputid");
+        let inputid1=document.getElementById("inputid1");
+        let btnid=document.getElementById("btnid");
+        let para=document.getElementById("para");
+        
+
+        // console.log(inputid);
+        // console.log(inputid1);
+        // console.log(btnid);
+        // console.log(para);
+        // console.log(numid);
+
+        function add(){
+            
+            let inputValue=inputs.value;
+            console.log(inputValue);
+            // let inputvalue1=inputid1.value;
+            // console.log(inputvalue1);
+            
+            
+            
+            if(inputid>inputid1){
+                document.write('greater no is:'+input)
+            }else{
+            //     document.write('greater no is:'+input1)
+            // let p=document.createElement("p");
+            // // console.log();
+            // p.innerText=inputValue,inputvalue;
+            // p.appendChild(inputid,inputid1);
+            // let h1=document.createElement("h1")
+            // console.log(p,'heyy')
+            // numid.appendChild(p)
+
+            
+            //  }
+
+            // let largest=Math.max(inputid,inputid1)
+            // document.write('greater no is:'+largest);
+
+            // 
+            
+            // let span=document.createElement("span")
+            // p.appendChild(span)  
+            // span.innerHTML=largest    
+           
+        }
+        }
+        btnid.addEventListener("click",add)
+        
+    </script>
+  
+</body>
+</html>

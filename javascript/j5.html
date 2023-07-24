@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>
+		Creating Search Bar using HTML
+		CSS and Javascript
+	</title>
+	
+	<!-- linking the stylesheet(CSS) -->
+	<link rel="stylesheet" type="text/css" href="./j5.css">
+</head>
+
+<body style="background-color: lightblue;
+display: grid;
+justify-content: center;
+margin-top: 141px;">
+	
+	<!-- input tag -->
+	<input id="searchbar" onkeyup="search_places()" type="text"
+		name="search" placeholder="Search places..">
+	
+	<!-- ordered list -->
+	<ol id='list'>
+		<li class="places">Calicut</li>
+		<li class="places">Europe</li>
+		<li class="places">italy</li>
+		<li class="places">turkey</li>
+		
+	</ol>
+	
+	<!-- linking javascript -->
+	<script src="./j5.js"></script>
+</body>
+
+</html>

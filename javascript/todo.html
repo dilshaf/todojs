@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <input type="text" id="input">
+    <button onclick="action()" id="b">click</button>
+    <ul id="ulid">
+        <li class="checked"></li>
+    </ul>
+
+   
+
+    <script>
+        function action() {
+            let inputvalue = input.value
+            console.log(inputvalue)
+            if (inputvalue === '') {
+                alert('please enter anything..')
+            } else {
+                let li = document.createElement("li");
+                console.log(li);
+                // li.innerText = inputvalue;
+                ulid.appendChild(li);
+                let span = document.createElement("span")
+                span.innerHTML = inputvalue
+                li.appendChild(span)
+
+            //     let deletebtn = document.createElement("i");
+            //     deletebtn.classList.add("fa-solid", "fa-trash")
+            //     li.appendChild(deletebtn);
+
+            //     let editbtn = document.createElement("i")
+            //     editbtn.classList.add("fa-solid", "fa-pen-to-square")
+            //     li.appendChild(editbtn);
+            //     li.addEventListener('click', function (events) {
+            //         let targetclass = events.target.classList
+            //         if (events.target.classList[1] === 'fa-trash') {
+
+            //             events.target.parentElement.remove()
+            //         } else if (events.target.classList[1] === 'fa-pen-to-square') {
+            //             let updateText = prompt("Enter text");
+            //             console.log(updateText, 'update text here...');
+
+            //             let newspan = li.querySelector("span")
+            //             newspan.innerText = updateText
+            //             console.log(li)
+            //             console.log(newspan)
+
+            //         }
+
+            //     });
+
+            }
+            input.value = '';
+            input.focus();
+            } 
+                ulid.addEventListener("click", function (e) {
+                    if (e.target.tagName === "LI") {
+                        e.target.classList.toggle('checked')
+                    }
+                    else if(e.target.tagName === "SPAN") {
+                        e.target.parentElement.remove();
+                    }
+
+
+                }, );
+
+
+            
+
+
+
+
+
+    </script>
+</body>
+
+</html>

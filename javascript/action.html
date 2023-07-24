@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actions</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter text...." id="input">
+    <button onclick="action()" id="btn">Click here</button>
+    <h1 id="head"></h1>
+
+    <script>
+        function action(){
+        var input=document.getElementById("input").value;
+        var heading=document.getElementById("head").innerHTML=input
+        input.value=''
+        input.focus();
+        }
+        function callback(Event) {
+    console.log('log');
+    if (Event.key == 'Enter') {
+        btn.click();
+    }
+}
+document.addEventListener("keypress", callback);
+btn.addEventListener("click",action);
+    </script>
+</body>
+</html>
