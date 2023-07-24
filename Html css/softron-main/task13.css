@@ -1,0 +1,71 @@
+.div1{
+    display: flex;
+    justify-content: space-around;
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+    height: 3rem;
+    width: 75rem;
+    padding: 0px -10px;
+    margin-top: 5rem;
+    box-shadow: -2px 0px 18px #0000ffab;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14rem;
+    margin-left: -7rem;
+}
+.buttons{
+    margin-top: 0rem;
+    padding: 15px 6px;
+}
+.logo{
+    font-weight: bold;
+    margin-top: -14px;
+    padding: 9px;
+}
+.div2{
+    background-color: navy;
+    color: white;
+    display: flex;
+    margin-top: 5rem;
+    border-radius: 10px;
+    height: 49px;
+    box-shadow: -2px 0px 18px #0000ffab;
+}
+.options1{
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+    margin-left: 2rem;
+}
+.logo1{
+    background-color: navy;
+    color: white;
+    display: flex;
+    margin-top: 0rem;
+    margin-left: 42rem;
+}
+.div3{
+    background-color: navy;
+    color: white;
+    display: flex;
+    margin-top: 5rem;
+    border-radius: 10px;
+    height: 49px;
+    box-shadow: -2px 0px 18px #0000ffab;
+}
+.options2{
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+    margin-left: 28rem;
+}
+.logo2{
+    font-weight: bold;
+    margin-top: -14px;
+    padding: 9px;
+    margin-left: 9rem;
+}

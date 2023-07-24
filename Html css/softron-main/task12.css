@@ -1,0 +1,29 @@
+.div1,.div3,.divb{
+    background-color: green;
+    width: 100%;
+}
+.div2{
+    display: flex;
+    /* background-color: yellow; */
+    
+}
+.div1,.diva,.divb,.div3{
+    color: white;
+    text-align: center;
+}
+.diva{
+    width: 410px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divb{
+    height: 188px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.div3{
+    height: 85px;
+}

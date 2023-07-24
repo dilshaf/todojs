@@ -1,0 +1,57 @@
+.image{
+    width: 50rem;
+    height:50rem;
+    position: relative;
+
+}
+.text{
+    position: absolute;
+    margin-top: -427px;
+    padding-left: 5rem;
+    color: orange;
+}
+.text1{
+    color:white;
+    position: absolute;
+    margin-top: -24rem;
+    padding-left: 5rem;
+}
+
+.footer{
+    background-color: black;
+    color: grey;
+    margin-top: -9rem;
+    position: absolute;
+    padding-left: 0rem;
+    width: 75rem;
+    padding-left: 9rem;
+}
+.footer1{
+    color: grey;
+    position: absolute;
+    margin-top: -9rem;
+    margin-left: 36rem;
+}
+
+.bg-image{
+    width: 75rem;
+    height: auto;
+ }   
+
+.footer1{
+    color: grey;
+}
+.screen{
+    width:300px;
+    height: 300px;
+}
+@media(max-width:400px){
+    .new-text1{
+        width: 424px;
+        height: 424px;
+    }
+    .bg-image{
+        width: 75rem;
+        height: 44rem;
+    }
+}

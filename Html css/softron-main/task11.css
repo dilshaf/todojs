@@ -1,0 +1,93 @@
+.parent{
+    display: flex;
+}
+.div2{
+    margin-left: 0;
+    background-color:#80808024;
+    width: 55rem;
+    height: 29rem;
+}
+.div1{
+    margin-left: 9rem;
+    border-left: 1px solid #00000045;
+}
+.main{
+    margin-left: -2rem;
+}
+.t1{
+    margin-left: 3rem;
+    background-color: blue;
+    padding: 3px 49px;
+}
+.form{
+    margin-left: 3rem;
+    display: flex;
+}
+.bio{
+    margin-left: 3rem;
+}
+.buttons{
+    margin-left: 3rem;
+    display: flex;
+}
+.p1{
+    display: flex;
+}
+.p2{
+    display: flex;
+}
+.p3{
+    display: flex;
+}
+.l{
+    display: flex;
+}
+.div4{
+    margin-left: 15rem;
+}
+.b1 :hover{
+    background-color: rgb(56, 56, 249);
+    transition: 1s;
+}
+.t1 :hover{
+    background-color: rgb(56, 56, 249);
+    transition: 1s;
+}
+.img{
+    padding: 1px 28px;
+}
+.t0{
+    padding: 0px 15px;
+}
+.t2{
+    padding: 10px;
+    margin-left: 3rem;
+}
+.t3{
+    padding: 10px;
+    margin-left: 3rem;
+}
+.t4{
+    padding: 10px;
+    margin-left: 3rem;
+}
+.t5{
+    padding: 10px;
+    margin-left: 3rem;
+}
+.t9{
+    margin-left: 3rem;
+}
+.f,.z,.x,.y,.j,.m{
+    padding: 10px;
+}
+.bo1,.bo2,.b03,.b04,.b05,.b06{
+    padding: 10px;
+}
+.div5{
+    padding: 10px;
+}
+.t1{
+    position: relative;
+    color: white;
+}

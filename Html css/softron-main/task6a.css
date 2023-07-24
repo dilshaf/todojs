@@ -1,0 +1,24 @@
+.img{
+    
+    margin-left: 336px;
+    width: 100%;
+    position: absolute;
+}
+img{
+    width: 35rem;
+}
+
+
+.mou{
+    color: red;
+    margin-left: 354px;
+    margin-top: 220px;
+    position: absolute;
+
+}
+.main{
+    background-color: red;
+    width: 100%;
+    height: 42rem;
+    position: relative;
+}

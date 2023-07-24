@@ -1,0 +1,39 @@
+.parent{
+    width: 340px;
+    height: 421px;
+    background-color: white;
+    margin: auto;
+}
+.img{
+    width: 63px;
+    height: 52px;
+    border-radius: 3rem;
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+.div1{
+    text-align: center;
+    margin-top: 6rem;
+}
+.t1{
+    color: orange;
+}
+.div2{
+    text-align: center;
+}
+.t2{
+    margin-top: -1rem;
+}
+.link{
+    text-align: center;
+    justify-content: space-between;
+    color: red;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.k{
+    margin-right: 41px;
+}
+.parent-div{
+    background-color: lightblue;
+}

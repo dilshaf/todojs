@@ -1,0 +1,27 @@
+.header-parent{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+.right-parent{
+    display: flex;
+    margin-right: 1rem;
+}
+.right-parent .r:last-child{
+    color: blue;
+}
+.container{
+    
+    background-size: auto;
+}
+.v{
+    display: flex;
+    justify-content: flex-end;
+}
+.w{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}

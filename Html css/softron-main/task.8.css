@@ -1,0 +1,58 @@
+.div1{
+    display: flex;
+}
+.div0{
+    display: flex;
+    margin-left: 33rem;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+.div2{
+    display: flex;
+}
+.a{
+    width: 50%;
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+.b{
+    width: 50%;
+    height: 26%;
+}   
+img{
+    width: 50%;
+    margin-left: 5rem;
+    margin-top: 6rem;
+} 
+.t1{
+    margin-left: 8rem;
+    margin-top: 2rem;
+    color: blue;
+    font-style: bold;
+    font-style: bold;
+    font-size: 28px;
+}
+.t2{
+    margin-right: 20px;
+}
+.t3{
+    margin-right: 20px;
+
+    
+}
+.t4{
+    margin-right: 20px;
+}
+.t5{
+    margin-right: 20px;
+}
+.k:last-child{
+    color: red;
+}
+.k:nth-child(2){
+    color: green;
+}

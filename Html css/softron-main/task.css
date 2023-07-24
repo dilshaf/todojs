@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.screen{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+@media(max-width:364px){
+    .screen{
+        width: 40px;
+        height: 20px;
+        background-color: aqua;
+    }
+}

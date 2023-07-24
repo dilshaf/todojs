@@ -1,0 +1,24 @@
+.header{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    width: 75rem;
+}
+.icons{
+    display: flex;
+    margin-left: 63rem;
+    margin-top: -4rem;
+}
+.icons1:hover{
+    color: red;
+    transition: 2s;
+}
+.c1{
+    width: 75rem;
+    height: 24rem;
+    position: relative;
+}
+.last{
+    margin-left: 7rem;
+    margin-top: 5rem;
+}

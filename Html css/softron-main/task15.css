@@ -1,0 +1,75 @@
+.div1{
+    display: flex;
+}
+.diva{
+    width: 50%;
+}
+.logo{
+    display: flex;
+}
+.k{
+    display: flex;
+}
+.t1{
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.year{
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+.main{
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+.m{
+    display: flex;
+    margin-top: -1rem;
+}
+.TV-M{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+}
+.SEASON{
+    margin-left: 1rem;
+}
+.logo{
+    margin-top: 1rem;
+}
+.l2{
+    font-style: italic;
+    color: white;
+    /* font-weight: bold; */
+}
+.para{
+    color:white;
+    font-weight: bold;
+
+}
+.section{
+    display: flex;
+    width: 115%;
+}
+.text{
+    color: white;
+    margin-top: -3rem;
+}
+.star{
+    color: red;
+}
+.jmain{
+    display: flex;
+    width: 10px;
+}
+.div3{
+    margin-top: -16rem;
+}
+/* .div2,.div3{
+    scroll-margin-bottom: 20px;
+} */
+.div2{
+    margin-top: 2rem;
+}

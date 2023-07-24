@@ -1,0 +1,6 @@
+.div1{
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+    margin-left: 13rem;
+}

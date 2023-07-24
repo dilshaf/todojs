@@ -1,0 +1,14 @@
+.position{
+    background-color: red;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    width: 20rem;
+    position: relative;
+}
+.pos{
+    margin-left: 26rem;
+    position: absolute;
+    margin-top: -3rem;
+
+}
