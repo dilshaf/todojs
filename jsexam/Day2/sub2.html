@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let pattern=''
+        let rows=4
+        for(let i=1;i<=rows;i++){
+            for(let space=1;space<=rows-i;space++){
+                pattern+=' '
+            }
+            for(let k=1;k<=2*i-1;k++){
+                pattern+=2*i-1
+            }
+            pattern+='\n'
+        }
+        console.log(pattern);
+
+
+</script>
+</body>
+</html>
