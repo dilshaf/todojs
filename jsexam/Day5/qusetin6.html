@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let litersUsed = prompt("enter the ltr"); // Example input: liters of water used
+let totalBill = 0;
+
+if (litersUsed <= 100) {
+    totalBill = litersUsed * 15;
+} else if (litersUsed <= 200) {
+    totalBill = 100 * 15 + (litersUsed - 100) * 14;
+} else {
+    totalBill = 100 * 15 + 100 * 14 + (litersUsed - 200) * 12;
+}
+
+console.log(totalBill);
+
+    </script>
+</body>
+</html>

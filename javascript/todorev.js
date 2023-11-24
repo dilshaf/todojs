@@ -14,7 +14,7 @@ function todoapp(){
         alert('please enter anything...')
     }else{
     let li=document.createElement("li")
-    console.log(li)
+    // console.log(li)
     // li.innerHTML=input
     ulid.appendChild(li)
 
@@ -35,7 +35,7 @@ function todoapp(){
         if(events.target.classList[1]=="fa-trash"){
             events.target.parentElement.remove()
         }else if(events.target.classList[1]=="fa-pen-to-square"){
-            let updatetext=prompt('enter update text')
+            let updatetext=prompt('ENTER UPDATE TEXT:')
             let updation=li.querySelector("span")
             updation.innerText=updatetext;
 
@@ -56,6 +56,9 @@ function todoapp(){
         }
     }
     document.addEventListener('keypress',callback)
+
+
+    
     
     
 

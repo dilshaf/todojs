@@ -1,12 +1,19 @@
 input{
-    width: 90%;
+    width: 31%;
     padding: 10px;
     border-radius: 10px;
     border: none;
+    background-color: white;
+    color: black;
+    margin-left: 5rem;
+    margin-top: 1rem;
+
 }
 body{
     margin-top: 175px;
-    background-color: darkcyan;
+    background-color: black;
+    margin-left: 26rem;
+    /* background-color: #ffa50094 */
 }
 button{
     padding: 10px;
@@ -16,4 +23,30 @@ button{
 button:hover{
     background-color: lightsalmon;
 }
+.fa-solid{
+    background-color: #ffa50075;
+    margin-left: 1rem;
+}
+span{
+    color: orange;
+}
+.main{
+    border: 4px solid black;
+    margin-right: 28rem;
+    /* background-color: white ; */
+    box-shadow: 3px 3px 10px orange;
 
+    height: 14rem;
+    width: 30rem;
+    /* background-color: bisque; */
+}
+#ulid{
+    margin-left: 6rem;
+}
+li{
+    color: orange;
+}
+.head{
+    color: orange;
+    margin-left: 7rem;
+}
